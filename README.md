@@ -612,8 +612,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🌐 Website: [shanibck.me](https://www.shanibck.me/)
 - 📧 Email: dev.shanibck@gmail.com
-- 💼 LinkedIn: [Shanib C K](https://www.linkedin.com/in/shanibck/)
-- 🐙 GitHub: [shanibck](https://github.com/shanibck)
+- 💼 LinkedIn: [Shanib C K](https://www.linkedin.com/in/shanib-c-k/)
+- 🐙 GitHub: [shanib-c-k](https://github.com/shanib-c-k)
 - 📍 Location: Malappuram, Kerala, India
 
 *MERN Stack Developer specializing in building high-performance web applications and browser extensions.*
@@ -659,7 +659,8 @@ Made with ❤️ by [Shanib C K](https://www.shanibck.me/)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-shanibck.me-blue)](https://www.shanibck.me/)
 [![Email](https://img.shields.io/badge/Email-dev.shanibck%40gmail.com-red)](mailto:dev.shanibck@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shanib%20CK-0077B5?logo=linkedin)](https://www.linkedin.com/in/shanibck/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shanib_C_K-0077B5?logo=linkedin)](https://www.linkedin.com/in/shanib-c-k/)
+[![GitHub](https://img.shields.io/badge/GitHub-shanib--c--k-181717?logo=github)](https://github.com/shanib-c-k)
 
 [⬆ Back to Top](#-download-virus-checker--site-scanner)
 

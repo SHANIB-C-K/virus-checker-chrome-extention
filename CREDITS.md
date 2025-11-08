@@ -9,8 +9,8 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-shanibck.me-blue?style=for-the-badge)](https://www.shanibck.me/)
 [![Email](https://img.shields.io/badge/📧_Email-dev.shanibck@gmail.com-red?style=for-the-badge)](mailto:dev.shanibck@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Shanib_CK-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shanibck/)
-[![GitHub](https://img.shields.io/badge/🐙_GitHub-shanibck-181717?style=for-the-badge&logo=github)](https://github.com/shanibck)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Shanib_C_K-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shanib-c-k/)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-shanib--c--k-181717?style=for-the-badge&logo=github)](https://github.com/shanib-c-k)
 
 </div>
 
@@ -46,10 +46,10 @@
 - 📧 **Email:** dev.shanibck@gmail.com
 - 📱 **Phone:** +91 6282844209
 - 📍 **Location:** Malappuram, Kerala, India
-- 💼 **LinkedIn:** [linkedin.com/in/shanibck](https://www.linkedin.com/in/shanibck/)
-- 🐙 **GitHub:** [github.com/shanibck](https://github.com/shanibck)
-- 🐦 **Twitter:** [@shanibck](https://twitter.com/shanibck)
-- 📷 **Instagram:** [@shanibck](https://instagram.com/shanibck)
+- 💼 **LinkedIn:** [linkedin.com/in/shanib-c-k](https://www.linkedin.com/in/shanib-c-k/)
+- 🐙 **GitHub:** [github.com/shanib-c-k](https://github.com/shanib-c-k)
+- 🐦 **Twitter:** [@Shanib_c_k](https://twitter.com/Shanib_c_k)
+- 📷 **Instagram:** [@shanib_c_k_](https://instagram.com/shanib_c_k_)
 
 ### Availability
 **Open for:**
