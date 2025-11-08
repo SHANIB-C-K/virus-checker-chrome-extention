@@ -10,6 +10,25 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('scanUrlBtn').addEventListener('click', scanUrl);
   document.getElementById('viewBlockedBtn').addEventListener('click', viewBlockedSites);
   
+  // Developer link click handler
+  document.getElementById('developerLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    chrome.tabs.create({ url: 'https://www.shanibck.me/' });
+  });
+  
+  // Developer social links
+  document.querySelectorAll('.dev-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const url = link.getAttribute('href');
+      if (url.startsWith('mailto:')) {
+        window.location.href = url;
+      } else {
+        chrome.tabs.create({ url: url });
+      }
+    });
+  });
+  
   // Allow Enter key to scan URL
   document.getElementById('urlInput').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
