@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virus Checker Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🛡️ Virus Checker Settings</h1>
+    </div>
+    
+    <div class="content">
+      <div class="section">
+        <h2>VirusTotal API Configuration</h2>
+        <p class="description">
+          This extension uses the VirusTotal API to scan downloaded files and URLs. 
+          You need to provide your own API key to use this extension.
+        </p>
+        
+        <div class="form-group">
+          <label for="apiKey">API Key:</label>
+          <input type="password" id="apiKey" placeholder="Enter your VirusTotal API key">
+          <button id="toggleApiKey" class="btn-icon">👁️</button>
+        </div>
+        
+        <button id="saveBtn" class="btn btn-primary">💾 Save Settings</button>
+        <div id="saveStatus" class="status-message"></div>
+      </div>
+      
+      <div class="section">
+        <h2>🛡️ Threat Protection Settings</h2>
+        <p class="description">
+          Configure how the extension handles detected threats.
+        </p>
+        
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="autoBlockEnabled" checked>
+            <span class="checkbox-text">
+              <strong>🚫 Auto-Block Malicious Websites</strong><br>
+              <small>Automatically block websites flagged as malicious by VirusTotal</small>
+            </span>
+          </label>
+        </div>
+        
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="autoDeleteEnabled" checked>
+            <span class="checkbox-text">
+              <strong>🗑️ Auto-Delete Malicious Files</strong><br>
+              <small>Automatically delete downloaded files flagged as malicious</small>
+            </span>
+          </label>
+        </div>
+        
+        <div class="info-box warning-box">
+          <strong>⚠️ Important:</strong> When auto-protection is enabled, threats are automatically blocked or deleted. 
+          You can always unblock sites or disable these features if needed.
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2>How to Get an API Key</h2>
+        <ol class="instructions">
+          <li>Go to <a href="https://www.virustotal.com/" target="_blank">VirusTotal.com</a></li>
+          <li>Sign up for a free account (or log in if you have one)</li>
+          <li>Navigate to your profile settings</li>
+          <li>Go to the "API Key" section</li>
+          <li>Copy your API key and paste it above</li>
+        </ol>
+        
+        <div class="info-box">
+          <strong>Note:</strong> Free VirusTotal API keys have rate limits. 
+          You can make up to 4 requests per minute and 500 requests per day.
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2>Features</h2>
+        <ul class="features-list">
+          <li>✓ Automatic scanning of all downloaded files</li>
+          <li>✓ Manual website/URL security checking</li>
+          <li>✓ Right-click context menu for quick URL scans</li>
+          <li>✓ Real-time threat detection</li>
+          <li>✓ Detailed scan reports</li>
+          <li>✓ Scan history tracking</li>
+          <li>✓ Instant notifications for threats</li>
+        </ul>
+      </div>
+      
+      <div class="section">
+        <h2>Privacy & Security</h2>
+        <p class="description">
+          This extension only sends file URLs to VirusTotal for scanning. 
+          Your API key is stored locally in your browser and is never shared with anyone. 
+          All communication with VirusTotal is done securely over HTTPS.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="options.js"></script>
+</body>
+</html>
+

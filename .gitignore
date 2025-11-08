@@ -1,0 +1,28 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Directories
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Node Modules (if any)
+node_modules/
+
+# Build Files
+dist/
+build/
+
+# Personal Configuration
+config.local.js
+.env.local
+
+# Screenshots (optional - remove if you want to commit them)
+# screenshots/
+

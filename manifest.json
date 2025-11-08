@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Download Virus Checker & Site Scanner",
+  "version": "1.2.0",
+  "description": "Automatically scans downloaded files and checks websites for viruses using VirusTotal API with auto-block protection",
+  "permissions": [
+    "downloads",
+    "storage",
+    "notifications",
+    "contextMenus",
+    "activeTab",
+    "webNavigation",
+    "tabs",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options.html",
+  "web_accessible_resources": [{
+    "resources": ["blocked.html"],
+    "matches": ["<all_urls>"]
+  }]
+}
+

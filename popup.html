@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Virus Checker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🛡️ Virus Checker</h1>
+      <p class="subtitle">Download & Site Security Scanner</p>
+    </div>
+    
+    <div class="status-section">
+      <div id="status" class="status-badge">
+        <span class="status-icon">⚙️</span>
+        <span id="statusText">Checking status...</span>
+      </div>
+    </div>
+    
+    <div class="section url-scanner">
+      <h2>🔍 Check a Website</h2>
+      <div class="url-input-group">
+        <input type="url" id="urlInput" placeholder="Enter URL to scan (e.g., https://example.com)" />
+        <button id="scanUrlBtn" class="btn btn-scan">Scan</button>
+      </div>
+      <p class="url-hint">Right-click any link and select "Check this URL for viruses"</p>
+    </div>
+    
+    <div class="section">
+      <h2>Recent Scans</h2>
+      <div id="scanHistory" class="scan-history">
+        <p class="no-scans">No scans yet. Download a file or scan a URL to begin.</p>
+      </div>
+    </div>
+    
+    <div class="section blocked-sites">
+      <h2>🚫 Blocked Sites (<span id="blockedCount">0</span>)</h2>
+      <div id="blockedList" class="blocked-list">
+        <p class="no-blocked">No blocked sites yet.</p>
+      </div>
+      <button id="viewBlockedBtn" class="btn btn-link">View All Blocked Sites</button>
+    </div>
+    
+    <div class="section">
+      <button id="settingsBtn" class="btn btn-primary">⚙️ Settings</button>
+      <button id="clearHistoryBtn" class="btn btn-secondary">🗑️ Clear History</button>
+    </div>
+    
+    <div class="footer">
+      <p>Powered by VirusTotal API</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
+
