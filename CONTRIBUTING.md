@@ -193,7 +193,7 @@ When adding new features:
 
 ## 🔒 Security
 
-If you discover a security vulnerability, please email [your-email@example.com] instead of using the issue tracker. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability, please email [dev.shanibck@gmail.com](mailto:dev.shanibck@gmail.com) instead of using the issue tracker. All security vulnerabilities will be promptly addressed.
 
 ## 📜 Code of Conduct
 

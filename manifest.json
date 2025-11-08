@@ -3,6 +3,8 @@
   "name": "Download Virus Checker & Site Scanner",
   "version": "1.2.0",
   "description": "Automatically scans downloaded files and checks websites for viruses using VirusTotal API with auto-block protection",
+  "author": "Shanib C K",
+  "homepage_url": "https://www.shanibck.me/",
   "permissions": [
     "downloads",
     "storage",

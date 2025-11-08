@@ -54,8 +54,10 @@
 ## 🚀 Installation
 
 ### Prerequisites
-- Google Chrome browser (or Chromium-based browser)
+- **Google Chrome** or **Chromium-based browser** (Chrome, Brave, Edge, Opera, Vivaldi)
 - VirusTotal API key (free)
+
+**Note:** For Firefox/Tor Browser, see [BROWSER_COMPATIBILITY.md](BROWSER_COMPATIBILITY.md)
 
 ### Step 1: Download the Extension
 
@@ -604,6 +606,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 👨‍💻 Developer
+
+**Developed by [Shanib C K](https://www.shanibck.me/)**
+
+- 🌐 Website: [shanibck.me](https://www.shanibck.me/)
+- 📧 Email: dev.shanibck@gmail.com
+- 💼 LinkedIn: [Shanib C K](https://www.linkedin.com/in/shanibck/)
+- 🐙 GitHub: [shanibck](https://github.com/shanibck)
+- 📍 Location: Malappuram, Kerala, India
+
+*MERN Stack Developer specializing in building high-performance web applications and browser extensions.*
+
+---
+
 ## 🙏 Acknowledgments
 
 - **VirusTotal** - For providing the excellent malware scanning API
@@ -639,7 +655,11 @@ If you find this extension helpful, please give it a star! It helps others disco
 
 **🛡️ Stay Safe Online! 🛡️**
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Shanib C K](https://www.shanibck.me/)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-shanibck.me-blue)](https://www.shanibck.me/)
+[![Email](https://img.shields.io/badge/Email-dev.shanibck%40gmail.com-red)](mailto:dev.shanibck@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shanib%20CK-0077B5?logo=linkedin)](https://www.linkedin.com/in/shanibck/)
 
 [⬆ Back to Top](#-download-virus-checker--site-scanner)
 
