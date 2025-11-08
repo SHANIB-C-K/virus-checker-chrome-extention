@@ -393,7 +393,7 @@ async function displayScanResults(stats, fileName, downloadId = null) {
 function showNotification(title, message, requireInteraction = false) {
   chrome.notifications.create({
     type: 'basic',
-    iconUrl: 'icons/icon128.png',
+    iconUrl: chrome.runtime.getURL('icons/icon128.png'),
     title: title,
     message: message,
     priority: requireInteraction ? 2 : 1,
